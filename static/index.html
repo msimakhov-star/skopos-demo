@@ -364,7 +364,7 @@ $("#rep").onclick = async () => {
 
 (async () => {
   // anchor picker — the kitchen scan fixtures
-  const FIX = ["IMG_6990","IMG_6978","IMG_6979","IMG_6980","IMG_6981","IMG_6982","IMG_6983","IMG_6984","IMG_6985","IMG_6986","IMG_6987"];  // IMG_6990 = Mike's panorama, the default
+  const FIX = ["IMG_6978","IMG_6990","IMG_6979","IMG_6980","IMG_6981","IMG_6982","IMG_6983","IMG_6984","IMG_6985","IMG_6986","IMG_6987"];  // IMG_6990 = Mike's panorama, the default
   $("#anchor").innerHTML = FIX.map(n=>`<option value="/static/fixtures/${n}.jpg">${n}</option>`).join("");
   $("#anchor").onchange = e => window.SkoposReactor && window.SkoposReactor.setAnchor(e.target.value);
   $("#rx-end").onclick = () => window.SkoposReactor && window.SkoposReactor.disconnect();

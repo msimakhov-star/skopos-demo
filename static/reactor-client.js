@@ -33,7 +33,7 @@
  */
 
 const SDK_URL = "https://cdn.jsdelivr.net/npm/@reactor-models/lingbot-world-2@1.0.1/+esm";
-const DEFAULT_ANCHOR = "/static/fixtures/IMG_6990.jpg";   // Mike's panorama of the room
+const DEFAULT_ANCHOR = "/static/fixtures/IMG_6978.jpg";   // the first photo
 const PROMPT_MIN_GAP_MS = 4000;   // live mode: floor between two setPrompt calls
 
 const state = {
