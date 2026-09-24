@@ -4,7 +4,7 @@ The app runs fully on `mock`. This is everything needed to put a real world mode
 
 ## 1. Get a key (2 min)
 
-Claim the hackathon credits (promo code `WORLDSLONDON`), then
+Claim the hackathon credits, then
 <https://www.reactor.inc/account/api-keys>. Keys look like `rk_...`.
 
 ```bash
